@@ -12,7 +12,7 @@
 
 - name: Download Minecraft
   get_url:
-    url: 'https://s3.amazonaws.com/Minecraft.Download/versions/1.8.8/minecraft_server.1.8.8.jar'
+    url: 'https://launcher.mojang.com/mc/game/1.9/server/b4d449cf2918e0f3bd8aa18954b916a4d1880f0d/server.jar'
     dest: '/home/minecraft/minecraft-server.jar'
 
 - name: Verify that EULA.txt is absent
