@@ -36,7 +36,7 @@
   replace:
     dest: '/home/minecraft/eula.txt'
     regexp: '^eula=false$'
-    replace: 'eula=true'
+    replace= 'eula=true'
 
 - name: Start Minecraft-Server on startup
   service:
